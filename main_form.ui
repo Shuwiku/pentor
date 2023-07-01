@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>392</width>
+    <height>410</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Pentor</string>
+  </property>
+  <widget class="QLabel" name="_label_key">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ключ</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="_line_edit_key_path">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>291</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="_button_get_key_path">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>30</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Выбрать</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="_label_image">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Картинка с текстом</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="_line_image_path">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>291</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="_button_get_image_path">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>80</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Выбрать</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="_plain_text_edit_text">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>180</y>
+     <width>371</width>
+     <height>191</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="_label_text">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>160</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Текст</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="_label_mode">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>110</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Режим</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="_radio_button_enc">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>130</y>
+     <width>101</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Зашифровать</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="_radio_button_dec">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>130</y>
+     <width>101</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Расшифровать</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="_label_max_symb_in_row">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>110</y>
+     <width>151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Максимум символов в строке</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="_spin_box_max_symb_in_row">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>130</y>
+     <width>151</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="_button_start">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>380</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Начать</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="_button_about">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>380</y>
+     <width>91</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>О приложении</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="_button_exit">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>380</y>
+     <width>91</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Выйти</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
