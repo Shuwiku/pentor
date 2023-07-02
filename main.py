@@ -1,12 +1,14 @@
 import sys
+
 from PyQt5.QtWidgets import QApplication
-from form import MainForm
+
+from gui import PentorGUI
 
 
 def main():
     app = QApplication(sys.argv)
-    win = MainForm()
-    win.show()
+    window = PentorGUI()
+    window.show()
     sys.exit(app.exec_())
 
 
