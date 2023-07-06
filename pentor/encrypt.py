@@ -1,4 +1,3 @@
-import cv2
 from PIL import Image
 
 from .load_key import load_key
