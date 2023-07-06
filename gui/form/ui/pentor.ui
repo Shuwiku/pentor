@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>381</width>
-    <height>432</height>
+    <width>521</width>
+    <height>611</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -31,7 +31,7 @@
     <rect>
      <x>10</x>
      <y>30</y>
-     <width>281</width>
+     <width>421</width>
      <height>20</height>
     </rect>
    </property>
@@ -39,7 +39,7 @@
   <widget class="QPushButton" name="_button_load_key">
    <property name="geometry">
     <rect>
-     <x>300</x>
+     <x>440</x>
      <y>30</y>
      <width>75</width>
      <height>23</height>
@@ -67,7 +67,7 @@
     <rect>
      <x>10</x>
      <y>80</y>
-     <width>281</width>
+     <width>421</width>
      <height>20</height>
     </rect>
    </property>
@@ -75,7 +75,7 @@
   <widget class="QPushButton" name="_button_load_image">
    <property name="geometry">
     <rect>
-     <x>300</x>
+     <x>440</x>
      <y>80</y>
      <width>75</width>
      <height>23</height>
@@ -85,37 +85,11 @@
     <string>Выбрать</string>
    </property>
   </widget>
-  <widget class="QRadioButton" name="_radio_button_encrypt">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>160</y>
-     <width>91</width>
-     <height>17</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Зашифровать</string>
-   </property>
-  </widget>
-  <widget class="QRadioButton" name="_radio_button_decrypt">
-   <property name="geometry">
-    <rect>
-     <x>110</x>
-     <y>160</y>
-     <width>101</width>
-     <height>17</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Расшифровать</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="_label_symbols_in_row">
    <property name="geometry">
     <rect>
-     <x>270</x>
-     <y>130</y>
+     <x>260</x>
+     <y>250</y>
      <width>101</width>
      <height>16</height>
     </rect>
@@ -127,8 +101,8 @@
   <widget class="QSpinBox" name="_spin_box_symbols_in_row">
    <property name="geometry">
     <rect>
-     <x>270</x>
-     <y>150</y>
+     <x>260</x>
+     <y>270</y>
      <width>101</width>
      <height>22</height>
     </rect>
@@ -137,7 +111,7 @@
     <number>1</number>
    </property>
    <property name="maximum">
-    <number>100</number>
+    <number>199</number>
    </property>
   </widget>
   <widget class="Line" name="_line_1">
@@ -145,7 +119,7 @@
     <rect>
      <x>10</x>
      <y>110</y>
-     <width>361</width>
+     <width>501</width>
      <height>16</height>
     </rect>
    </property>
@@ -157,8 +131,8 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>180</y>
-     <width>361</width>
+     <y>300</y>
+     <width>501</width>
      <height>16</height>
     </rect>
    </property>
@@ -170,9 +144,9 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>210</y>
-     <width>361</width>
-     <height>181</height>
+     <y>340</y>
+     <width>501</width>
+     <height>231</height>
     </rect>
    </property>
   </widget>
@@ -180,7 +154,7 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>190</y>
+     <y>320</y>
      <width>31</width>
      <height>16</height>
     </rect>
@@ -193,7 +167,7 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>400</y>
+     <y>580</y>
      <width>75</width>
      <height>23</height>
     </rect>
@@ -205,8 +179,8 @@
   <widget class="QPushButton" name="_button_about">
    <property name="geometry">
     <rect>
-     <x>90</x>
-     <y>400</y>
+     <x>100</x>
+     <y>580</y>
      <width>91</width>
      <height>23</height>
     </rect>
@@ -218,8 +192,8 @@
   <widget class="QLabel" name="_label_version">
    <property name="geometry">
     <rect>
-     <x>350</x>
-     <y>410</y>
+     <x>490</x>
+     <y>580</y>
      <width>31</width>
      <height>20</height>
     </rect>
@@ -231,7 +205,7 @@
   <widget class="QCheckBox" name="_check_box_delete_bad_symbols">
    <property name="geometry">
     <rect>
-     <x>10</x>
+     <x>260</x>
      <y>130</y>
      <width>241</width>
      <height>17</height>
@@ -240,6 +214,196 @@
    <property name="text">
     <string>Убрать символы, которых нет в алфавите</string>
    </property>
+  </widget>
+  <widget class="QCheckBox" name="_check_box_text_to_single_case">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>190</y>
+     <width>191</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Перевести текст в один регистр</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="_check_box_add_image_copy">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>160</y>
+     <width>251</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Добавить копию увеличенного изображения</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="_group_box_scale_image">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>190</y>
+     <width>241</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Увеличить</string>
+   </property>
+   <widget class="QRadioButton" name="_radio_button_x2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>41</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>x2</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="_radio_button_x4">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>20</y>
+      <width>41</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>x4</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="_radio_button_x8">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>20</y>
+      <width>41</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>x8</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="_radio_button_x16">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>20</y>
+      <width>51</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>x16</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="_group_box_mode">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>130</y>
+     <width>241</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Режим</string>
+   </property>
+   <widget class="QRadioButton" name="_radio_button_encrypt">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>101</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Зашифровать</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="_radio_button_decrypt">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>20</y>
+      <width>98</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Расшифровать</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="_group_box_text_case">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>250</y>
+     <width>241</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Регистр</string>
+   </property>
+   <widget class="QRadioButton" name="_radio_button_upper">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Верхний</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="_radio_button_lower">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>20</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Нижний</string>
+    </property>
+   </widget>
   </widget>
  </widget>
  <resources/>
